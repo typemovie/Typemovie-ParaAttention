@@ -107,7 +107,7 @@ python3 setup.py install
 ## Install from PyPI
 
 ```bash
-pip3 install typemovie-paraattention
+pip3 install typemovie_paraattn-0.1-py3-none-any.whl
 ```
 
 ## Local Installation
