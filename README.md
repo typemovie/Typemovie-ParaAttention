@@ -2,15 +2,15 @@
 
 TypeMovie-ParaAttention is an enhanced version of ParaAttention, designed to accelerate Diffusion Transformer (DiT) model inference with context parallelism, dynamic caching, and a new high-performance SageAttention backend. It supports both Ulysses Style and Ring Style parallelism, delivering faster inference without sacrificing accuracy.
 
-🔥[Fastest FLUX.1-dev Inference with Context Parallelism and First Block Cache on NVIDIA L20 GPUs](./doc/fastest_flux.md)🔥
-
-🔥[Fastest HunyuanVideo Inference with Context Parallelism and First Block Cache on NVIDIA L20 GPUs](./doc/fastest_hunyuan_video.md)🔥
-
 ## What's New
 
 - **SageAttention Backend**: Replaced the original attention implementation with SageAttention, achieving up to **50% faster performance** compared to FlashAttention2 on RTX 4090, while maintaining full compatibility with ParaAttention's API.
 - **Enhanced UnifiedAttnMode**: Optimized context parallelism with a hybrid of Ulysses and Ring styles for maximum flexibility and performance across various models and hardware configurations.
 - **Seamless Compatibility**: Use all existing ParaAttention interfaces without code changes, ensuring a smooth transition to TypeMovie-ParaAttentio
+
+🔥[Fastest FLUX.1-dev Inference with Context Parallelism and First Block Cache on NVIDIA L20 GPUs](./doc/fastest_flux.md)🔥
+
+🔥[Fastest HunyuanVideo Inference with Context Parallelism and First Block Cache on NVIDIA L20 GPUs](./doc/fastest_hunyuan_video.md)🔥
 
 # Key Features
 
